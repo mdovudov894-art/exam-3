@@ -102,3 +102,52 @@
         }
     }
 }
+.images{
+    display: flex;
+    justify-content: center;
+
+    div{
+        width: 350px;
+        text-align: center;
+
+        h2{
+            font-size: 28px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 17px;
+            color: #6E7191;
+        }
+    }
+    .pay-box{
+        
+       
+        h2{
+            margin-top: 48px;
+        }
+    }
+    .cleaner-box{
+
+        h2{
+            margin-top: 40px;
+        }
+    }
+    img{
+        width: 200px;
+    }
+}
+.how-text{
+    margin-top: 150px;
+    text-align: center;
+    h1{
+        font-size: 45px;
+        color: #211F54;
+    }
+    p{
+        font-size: 19px;
+        color: #6E7191;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
