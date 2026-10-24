@@ -40,3 +40,65 @@
         background-color: #136dd3;
     }
 }
+
+.section1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.quality-text{
+    width: 430px;
+    margin-top: 150px;
+    margin-left: 40px;
+    h1{
+        font-size: 55px;
+        color: #211F54;
+    }
+    p{
+        font-size: 18px;
+        color: #6E7191;
+        width: 490px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+}
+
+.woman-img{
+    width: 620px;
+}
+
+.sss{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    button{
+        padding: 20px;
+        width: 230px;
+        border: none;
+        background-color: #0075FF;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 14px;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    .numbers{
+        display: flex;
+        margin-left: 10px;
+        h3{
+            font-size: 23px;
+            width: 180px;
+            span{
+                color: #6E7191;
+                font-size: 15px;
+                font-weight: 400;
+                letter-spacing: 2px;
+            }
+        }
+        img{
+            width: 80px;
+        }
+    }
+}
