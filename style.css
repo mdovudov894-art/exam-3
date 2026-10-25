@@ -275,3 +275,66 @@
         }
     }
 }
+
+.section4{
+    display: flex;
+    justify-content: center;
+}
+
+.s4-box{
+    background-color: #211F54;
+    color: #fff;
+    display: flex;
+    width: 1080px;
+    height: 600px;
+    border-radius: 24px;
+    padding-top: 10px;
+
+    .we-text{
+        width: 400px;
+        margin-top: 130px;
+        margin-left: 60px;
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 18px;
+            margin-top: 15px;
+            line-height: 1.5;
+        }
+    }
+}
+
+.sss2 {
+    display: flex;
+    margin-top: 10px;
+
+    button{
+        height: 60px;
+        width: 200px;
+        background-color: #0075FF;
+        border: none;
+        border-radius: 14px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .numbers2{
+        display: flex;
+        position: relative;
+        left: 20px;
+        top: -10px;
+        h3{
+            width: 160px;
+            margin-top: 10px;
+            span{
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+        img{
+            width: 80px;
+        }
+    }
+}
