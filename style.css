@@ -419,3 +419,78 @@
     }
 
 }
+
+.section6 {
+    display: flex;
+    margin-top: 250px;
+    justify-content: center;
+
+
+    button {
+            border: none;
+            background-color: #0075FF;
+            padding: 16px;
+            width: 140px;
+            color: #fff;
+            border-radius: 14px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.2s;
+            width: 180px;
+            font-size: 15px;
+            margin-top: 40px;
+            height: 60px;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+        button:hover{
+            box-shadow: 0 0 5px rgb(57, 57, 65);
+            transform: translateY(-6px);
+        }
+}
+
+.man-cleaner {
+    width: 600px;
+}
+
+.what-text {
+    width: 500px;
+
+    h1 {
+        font-size: 45px;
+        color: #211F54;
+    }
+
+    p {
+        color: #6E7191;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        line-height: 1.6;
+    }
+
+    .span {
+        color: #6E7191;
+        font-size: 12px;
+    }
+}
+
+.rates {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    h2 {
+        font-size: 44px;
+        color: #211F54;
+
+        span {
+            color: #0075FF;
+        }
+    }
+
+    p {
+        font-weight: 600;
+        margin-top: 1px;
+    }
+
+    
+}
